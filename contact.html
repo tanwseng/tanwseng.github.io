@@ -1,0 +1,83 @@
+<!doctype html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My First HTML5 Web Page</title>
+
+        <link rel="stylesheet" href="./css/style01.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1> My Introduction</h1>
+            </header>
+            <nav>
+                <a href="#">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Experience</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Beliefs</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#">Contact</a>
+            </nav>
+
+            <article>
+                <section>
+                   <form class="contact_form" action="#" method="post" name="contact form">
+                       <ul>
+                           <li>
+                               <h2> Contact Us </h2>
+                               <span class="required_notification">*Denote required fields</span>
+                           </li>
+                           <li>
+                               <label for ="name">Name</label>
+                               <input type="text" placeholder= "Peter Tan" required />
+                               <span class='form_hint'>Name is required</span>
+                           </li>
+                           <li>
+                               <label for="email">Email<label>
+                                <input type="email" placeholder="someone@example.com"required/>
+                                <span class="form_hint">Enter proper email format, i.e. someone@example.com</span>
+                            </li>
+                            <li>
+                                <label for "url">Website</label>
+                                <input type="url" placeholder="https://example.com" required pattern= "http|https://.+" />
+                                <span class="form_hint">Enter valid url format</span>
+                            </li>
+                            <li>
+                                <label for="comments">Comments</label>
+                                <textarea name="message" cols="50" rows="5"></textarea>
+                            </li>
+                            <li>
+                                <button class="submit" type="submit">Submit Form</button>
+                            </li>
+                       </ul>
+                   </form>
+                </section>
+            </article>
+
+            <aside>
+                    <h3>Security Assessment Services</h3>
+                    <ol>
+                        <li><a href="#">Benefits</a></li>
+                        <li><a href="#">Rates</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                    </ol>
+                   <br>
+            
+                <p> Peter provides professional services in the area of training and
+                        security assessment
+                </p>
+
+                <p>
+                    contact us at 1234567
+                </p>
+            </aside>
+        </body>
+        
+            <footer>
+                    Copyright &copy; Peter Tan
+            </footer>
+
+        </div>
+
+       
+    
+ </html>
